@@ -32,3 +32,9 @@
     2. R is the matrix that transforms C into A
     3. R contains $I$ because r columns of A are already in C
 3. A is a m by n matrix, B is a n by p matrix, then calculation of $AB$ takes $mnp$ multiplications
+
+# 2 Solving linear equations Ax = b
+## 2.1 Elimination and Back Substitution
+1. Translate coefficient matrix A into an upper triangular matrix U by **elimination**
+2. Then solve $Ux = c$ by **back substitution**
+3. A triangular matrix U has **full rank** exactly when its main diagonal has no zeros
